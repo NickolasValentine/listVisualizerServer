@@ -1,2 +1,4 @@
-package data;public interface TestIt {
-}
+package data;
+
+// Функциональные интерфейсы для callback-операций
+public interface TestIt { boolean testIt(Object obj); }
